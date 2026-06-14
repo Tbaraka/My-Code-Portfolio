@@ -1,7 +1,7 @@
 // --- Curated list of repos to feature. ---
 
 const REPOS = [
-  'Distributed-Key-Value-Store',
+  'redstore-',
   'slot-machine-',
   'Crypto-FrontEnd',
   'grade-calculator-',
