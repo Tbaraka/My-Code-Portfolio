@@ -1,6 +1,5 @@
 // --- Curated list of repos to feature. ---
-// Add or remove repo names here to control what shows on the projects page.
-// (Repo names are used as-is for the GitHub API call; display names are cleaned up below.)
+
 const REPOS = [
   'redstore-',
   'slot-machine-',
