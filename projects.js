@@ -1,9 +1,9 @@
 // --- Curated list of repos to feature. ---
 
 const REPOS = [
-  'redstore-',
-  'slot-machine-',
-  'Crypto-FrontEnd',
+  'Distributed-Key-Value-Store',
+  'MamaFua-Pro ',
+  'Supervised-ML',
   'grade-calculator-',
   'Area-of-a-Shape-',
   'Calculator-',
