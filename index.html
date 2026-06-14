@@ -3,26 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teddy's Portfolio .INC/.</title>
+    <meta name="description" content="Teddy Baraka — developer portfolio. Python, C++, JavaScript projects and contact info.">
+    <title>Teddy Baraka — Developer</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="banner">
-        <div class="navbar"></div>
-        <div class="content">
-            <div class="header-container">
-                <div class="logo">
-                    <img src="logo.jpeg" alt="Logo" class="logo-image">
-                </div>
-                <h1>TEDDY'S PORTFOLIO</h1>
+    <div class="editor">
+        <div class="titlebar">
+            <div class="traffic-lights">
+                <span class="dot red"></span>
+                <span class="dot yellow"></span>
+                <span class="dot green"></span>
             </div>
-            <p>Showcasing my design and coding abilities.</p>
-            <div>
-                <a href="about.html"><button type="button"><span></span>ABOUT ME</button></a>
-                <a href="projects.html"><button type="button"><span></span>PROJECTS</button></a>
-                <a href="contact.html"><button type="button"><span></span>CONTACTS </button></a>
-            </div>
+            <nav class="tabs">
+                <a href="index.html" class="tab active">index.html</a>
+                <a href="about.html" class="tab">about.md</a>
+                <a href="projects.html" class="tab">projects.json</a>
+                <a href="contact.html" class="tab">contact.json</a>
+            </nav>
         </div>
+        <main class="terminal">
+            <p class="terminal-line"><span class="prompt">$</span>whoami</p>
+            <div class="terminal-output">
+                <h1>Teddy Baraka</h1>
+                <p class="subtitle">Developer studying at USIU — building with Python, C++ and JavaScript, learning Kotlin.</p>
+            </div>
+            <p class="terminal-line"><span class="prompt">$</span>ls pages/</p>
+            <div class="links">
+                <a href="about.html" class="file-link">about.md</a>
+                <a href="projects.html" class="file-link">projects/</a>
+                <a href="contact.html" class="file-link">contact.json</a>
+            </div>
+            <p class="cursor-line"><span class="prompt">$</span><span class="cursor"></span></p>
+        </main>
     </div>
 </body>
 </html>

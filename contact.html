@@ -1,41 +1,36 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact - Teddy's Portfolio</title>
-    <link rel="stylesheet" href="style123.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <meta name="description" content="Contact Teddy Baraka — email, LinkedIn and GitHub.">
+    <title>Contact — Teddy Baraka</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="banner">
-        <div class="navbar">
-            <ul>
-                <li><a href="index.html">HOME</a></li>
-                <li><a href="about.html">ABOUT</a></li>
-                <li><a href="projects.html">PROJECTS  </a></li>
-            </ul>
-        </div>
-
-        <div class="content">
-            <h1>FIND ME</h1>
-            <div class="contact-container">
-                <a href="https://www.linkedin.com/in/teddy-baraka" target="_blank">
-                    <button type="button" title="Connect with me on LinkedIn">
-                        <span></span><i class="fab fa-linkedin"></i> LinkedIn
-                    </button>
-                </a>
-                
-                <a href="https://github.com/Tbaraka" target="_blank">
-                    <button type="button" title="Check out my GitHub">
-                        <span></span><i class="fab fa-github"></i> GitHub
-                    </button>
-                </a>
+    <div class="editor">
+        <div class="titlebar">
+            <div class="traffic-lights">
+                <span class="dot red"></span>
+                <span class="dot yellow"></span>
+                <span class="dot green"></span>
             </div>
-            <div class="email-info">
-                <p>email : <strong>barakateddy5@gmail.com</strong></p>
-            </div>
+            <nav class="tabs">
+                <a href="index.html" class="tab">index.html</a>
+                <a href="about.html" class="tab">about.md</a>
+                <a href="projects.html" class="tab">projects.json</a>
+                <a href="contact.html" class="tab active">contact.json</a>
+            </nav>
         </div>
+        <div class="file-header">✉️ contact.json</div>
+        <main class="json-view">
+            <pre><code><span class="json-punct">{</span>
+  <span class="json-key">"name"</span><span class="json-punct">:</span> <span class="json-string">"Teddy Baraka"</span><span class="json-punct">,</span>
+  <span class="json-key">"email"</span><span class="json-punct">:</span> <a class="json-string" href="mailto:barakateddy5@gmail.com">"barakateddy5@gmail.com"</a><span class="json-punct">,</span>
+  <span class="json-key">"linkedin"</span><span class="json-punct">:</span> <a class="json-string" href="https://www.linkedin.com/in/teddy-baraka" target="_blank" rel="noopener">"linkedin.com/in/teddy-baraka"</a><span class="json-punct">,</span>
+  <span class="json-key">"github"</span><span class="json-punct">:</span> <a class="json-string" href="https://github.com/Tbaraka" target="_blank" rel="noopener">"github.com/Tbaraka"</a>
+<span class="json-punct">}</span></code></pre>
+        </main>
     </div>
 </body>
 </html>
