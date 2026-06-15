@@ -12,7 +12,6 @@ const REPOS = [
 
 const GITHUB_USER = 'Tbaraka';
 
-// Rough color hints per language, used for the little badge outline.
 const LANG_COLORS = {
   JavaScript: '#e6b450',
   Python: '#2dd4bf',
@@ -22,7 +21,7 @@ const LANG_COLORS = {
   Kotlin: '#9ece6a'
 };
 
-// "redstore-" -> "Redstore", "slot-machine-" -> "Slot Machine"
+
 function formatRepoName(name) {
   return name
     .replace(/-+$/, '')
