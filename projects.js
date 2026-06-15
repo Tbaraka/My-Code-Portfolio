@@ -1,15 +1,13 @@
 // --- Curated list of repos to feature. ---
 
-const REPOS = [
-  'Distributed-Key-Value-Store-',
-  'MamaFua-Pro-',
-  'Supervised-ML-',
-  'grade-calculator-',
-  'Area-of-a-Shape-',
-  'Calculator-',
-  'Grade-Management-Project-',
-  'Rock-Paper-Scissor-Game-',
-  'bank-balance-'
+cconst REPOS = [
+  'Distributed-Key-Value-Store',
+  'MamaFua-Pro',
+  'Supervised-ML',
+  'LinearModelsML',
+  'redstore-',
+  'SqRt-In-Java-',
+  'Rock-Paper-Scissor-Game-'
 ];
 
 const GITHUB_USER = 'Tbaraka';
