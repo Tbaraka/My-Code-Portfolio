@@ -6,7 +6,7 @@ const REPOS = [
   'Supervised-ML',
   'LinearModelsML',
   'cyber-essentials-labs',
-  'cryptography-labs-,
+  'cryptography-labs-',
   'Rock-Paper-Scissor-Game-'
 ];
 
