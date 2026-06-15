@@ -1,6 +1,6 @@
 // --- Curated list of repos to feature. ---
 
-cconst REPOS = [
+const REPOS = [
   'Distributed-Key-Value-Store',
   'MamaFua-Pro',
   'Supervised-ML',
