@@ -5,7 +5,7 @@ const REPOS = [
   'MamaFua-Pro',
   'Supervised-ML',
   'LinearModelsML',
-  'rcyber-essentials-labs',
+  'cyber-essentials-labs',
   'SqRt-In-Java-',
   'Rock-Paper-Scissor-Game-'
 ];
