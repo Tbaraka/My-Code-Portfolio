@@ -9,19 +9,7 @@
 </head>
 <body>
     <div class="editor wide">
-        <div class="titlebar">
-            <div class="traffic-lights">
-                <span class="dot red"></span>
-                <span class="dot yellow"></span>
-                <span class="dot green"></span>
-            </div>
-            <nav class="tabs">
-                <a href="index.html" class="tab">index.html</a>
-                <a href="about.html" class="tab">about.md</a>
-                <a href="projects.html" class="tab active">projects.json</a>
-                <a href="contact.html" class="tab">contact.json</a>
-            </nav>
-        </div>
+        <header data-site-header></header>
         <div class="file-header">📁 projects/ — live from github.com/Tbaraka</div>
         <main class="projects-main">
             <div class="project-grid" id="project-grid">
@@ -33,18 +21,13 @@
             </p>
         </main>
         <noscript>
-            <noscript>
-    <div class="noscript-note">
-        JavaScript is required to load project data.
-        Visit
-        <a href="https://github.com/Tbaraka" target="_blank" rel="noopener">
-            my GitHub profile
-        </a>
-        to view all projects.
-    </div>
-</noscript>
+            <div class="noscript-note">
+                JavaScript is disabled, so live project data can't load.
+                <a href="https://github.com/Tbaraka" target="_blank" rel="noopener">Browse all projects on GitHub</a>.
+            </div>
         </noscript>
     </div>
+    <script src="site-header.js"></script>
     <script src="projects.js"></script>
 </body>
 </html>
